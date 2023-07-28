@@ -1,0 +1,239 @@
+body{
+    font-family: "Montserrat";
+    
+    }
+    
+    
+    #title{
+        background-color: #ff4c68;
+        color:#ffff;
+        
+    }
+    
+    
+    nav{
+      font-size: 1rem;
+      padding:3rem;
+    }
+    
+    .navbar-brand{
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: "Ubuntu";
+    }
+    
+    .nav-items{
+        padding:0 18px 0 18px;
+    }
+    
+    .nav-link{
+        font-size: 1rem;
+        
+    }
+    .btn-style{
+        margin:50px 0 50px 0;
+        
+    }
+    
+    /* .row{
+        padding:40px 0 0 0;
+    } */
+    h1{
+        font-family:"Montserrat-Black", sans-serif;    
+        size: 5rem;
+        line-height: 1.5;
+        font-size: 55px;
+        font-weight: bold;
+    }
+    
+    .container-fluid{
+        padding: 3% 15% 7% 15%;
+    }
+     /* .img-rot{
+        position: relative;
+    }   */
+    .title-img{
+        width: 20%;
+        position: absolute;
+        transform: rotate( 25deg);
+        /* padding:40px 10px 10px 0; */
+        left:60%;
+    
+    
+        
+    }
+    
+    .download-btn{
+     margin:5% 7% 5% 0;
+     font-size: 15px;
+     width: fit-content;
+    }
+    
+    .download-i{
+        padding:0 4px 0 0;
+     
+    }
+    
+    /* .download-color{
+        background-color: #ff4c68;
+    } */
+    
+    /* Feature */
+    #features{
+        padding: 7% 15%;
+        background-color: #ffffff;
+        position:relative;
+        z-index: 1;
+    }
+    
+    
+    
+    .feature-main
+    { 
+        text-align: center;  
+        padding: 4.5% 0 4.5% 0;
+    }
+    
+    .feature-i-custom
+    {
+        color:#ff4c68;
+        margin-bottom:1rem;    
+        
+    } 
+    
+    .feature-i-custom:hover{
+        color:#ef8172;
+    }
+    
+    .feature-h3{  
+        font-family: 'montserrat';
+        font-weight: bold;    
+        font-size:1.210rem;
+    }
+    
+    .feature-p
+    {
+        color:#8f8f8f;
+    }
+    
+    
+    
+     /* Testimonials  */
+    
+     #testimonials{
+        background-color: #ff4c68;
+        
+        text-align: center;
+     }
+    
+     .testimonials-h2{
+        color: #ffff;
+        font-family:'montserrat';
+        font-weight: bold;
+        font-size: 2.5rem;
+        
+     }
+     .testimonials-img{
+        border-radius: 100%;
+        width: 10%;
+     }
+     em{
+        color: #ffff;
+     }
+    
+     /* Press */
+     #press{
+        background-color: #ff4c68;
+        padding: 5% 15% 3% 15%;
+        text-align: center;
+    
+     }
+    
+     .press-img{
+        width: 20%;
+        padding: 30px 5px 5px 5px;
+        
+     }
+    
+    
+     /* Carousle  */
+      .carousel-item {
+        padding:7% 15%;
+     }
+    
+     .carousel-control-btn{
+        padding: none;
+     }
+    
+    
+     /* pricing and card */
+    #pricing{
+        padding:100px;
+        background-color: #ffffff;
+    }
+    
+    .pricing-col{
+        padding:3% 2%;
+        text-align: center;
+    }
+    .pricing-text{
+        text-align: center;
+    }
+    
+    /* <!-- Call to Action --> */
+    #cta{
+        background-color: #ff4c68;
+        padding:7% 15%;
+    }
+    
+    .cta-h3{
+        color: #ffff;
+        font-family:'montserrat';
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+        
+    }
+    
+    .cta-btn-container{
+        text-align: center;
+    }
+    
+    
+    
+    /* Footer */
+    
+    #footer{
+        background-color: #ffffff;
+        text-align: center;
+        padding:7% 15%;
+    }
+    
+    .footer-icon-i{
+        padding: 0 5px 0 5px;
+        vertical-align: top;
+        
+    }
+    
+    
+    /* Media Querry to make our website more responsive */
+    
+    @media(max-width:1028px)
+    {
+        #title{
+            text-align: center;
+        }
+    
+        .title-img{
+            position: static;
+            transform: rotate(0);
+            width: 100%;
+        }
+    
+        .cta-h3{
+        
+            text-align: center;        
+        }
+    
+    
+    }
